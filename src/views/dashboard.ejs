@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <!-- Link to the custom CSS file -->
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center">
+        Welcome to Your Dashboard, <%= user.username %>!
+      </h1>
+      <h2>Dashboard Information</h2>
+      <ul>
+        <li><strong>Username:</strong> <%= user.username %></li>
+        <li><strong>Account Created At:</strong> <%= user.createdAt %></li>
+      </ul>
+
+      <footer>
+        <button><a href="/">Go Home</a></button>
+      </footer>
+
+      <form method="POST" action="/logout" class="text-center">
+        <button type="submit">Logout</button>
+      </form>
+    </div>
+  </body>
+</html>
