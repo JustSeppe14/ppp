@@ -39,7 +39,7 @@ Run the following command to install the necessary dependencies:
 npm install
 ```
 
-This will install the required packages listed in the [package.json] file, including Express, EJS, and other dependencies.
+This will install the required packages listed in the `package.json` file, including Express, EJS, and other dependencies.
 
 ### 3. Set up Environment Variables
 
@@ -48,22 +48,22 @@ This will install the required packages listed in the [package.json] file, inclu
 
 ### 4. Run the application
 
-After installing the dependencies and configuring the .env file, you can start the application by running:
+After installing the dependencies and configuring the `.env` file, you can start the application by running:
 
 ```bash
 npm run start
 ```
 
-By default, the application will run on http://localhost:3000.
+By default, the application will run on `http://localhost:3000`.
 
 ### 5. Accessing the application
 
 Once the server is running, open your browser and visit the following URLs:
 
-- Homepage: http://localhost:3000/
-- Register: http://localhost:3000/register
-- Login: http://localhost:3000/login
-- Dashboard (requires login): http://localhost:3000/dashboard
+- Homepage: `http://localhost:3000/`
+- Register: `http://localhost:3000/register`
+- Login: `http://localhost:3000/login`
+- Dashboard (requires login): `http://localhost:3000/dashboard`
 
 ### 6. Example Flow
 
