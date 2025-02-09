@@ -71,3 +71,6 @@ Once the server is running, open your browser and visit the following URLs:
 2. Login: After registration, navigate to `/login` and log in using the credentials you just created.
 3. Dashboard: After logging in successfully, you will be redirected to the dashboard where you can view user information.
 4. Logout: You can log out from the dashboard by clicking the logout button, which will end your session and redirect you to the homepage.
+
+### 7. Certificate of Completion
+![Certificate](public/UC-2f2ce538-8ce8-4dcc-87e5-aed6b4281270.jpg)
